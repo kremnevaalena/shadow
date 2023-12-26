@@ -1,0 +1,659 @@
+/* планшет */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+.faces{
+    background: url(../images/emotion1.svg);   
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.emotion1line, .emotion2line{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.emotion1{
+    width: 33.3%;
+}
+
+.emotion1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.emotion2{
+    width: 33.3%;
+}
+
+.emotion2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.emotion3{
+    width: 33.3%;
+}
+
+.emotion3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.emotion4{
+    width: 33.3%;
+}
+
+.emotion4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.emotion5{
+    width: 33.3%;
+}
+
+.emotion5 img{
+    width: 100%;
+    height: 100%;
+}
+
+.emotion6{
+    width: 33.3%;
+}
+
+.emotion6 img{
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+.emotion1{
+    animation: rotation 3s infinite linear;
+}
+
+    @keyframes rotation{
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.emotion2{
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation{
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.emotion3{
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation{
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.emotion4{
+    animation: rotation3 3s infinite linear;
+}
+
+@keyframes rotation3{
+    100% {transform: rotate(-360deg);}
+    0% {transform: rotate(-360deg);}
+}
+
+.emotion5{
+    animation: rotation3 3s infinite linear;
+}
+
+@keyframes rotation3{
+    100% {transform: rotate(0deg);}
+    0% {transform: rotate(-360deg);}
+}
+
+.emotion6{
+    animation: rotation3 3s infinite linear;
+}
+
+@keyframes rotation3{
+    100% {transform: rotate(0deg);}
+    0% {transform: rotate(-360deg);}
+}
+
+.block1{
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.shadow{
+    font-size: 64px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: #A3B7BC;
+    white-space: nowrap;
+    animation: lin 1.5s linear infinite;
+    padding-bottom: 8px;
+    }
+
+    @keyframes lin{
+        from{transform: translateX(-387px);}
+        to{transform: translateX(0);}
+    }
+
+    .block2{
+        width: 100vw;
+        background-color: black;
+        overflow: hidden;
+    }
+    
+    .shadow2{
+        font-size: 64px;
+        font-family: 'Halvar Breitschrift', sans-serif ;
+        color: #A3B7BC;
+        white-space: nowrap;
+        animation: lin2 1.5s linear infinite;
+        padding-bottom: 8px;
+        }
+        @keyframes lin2{
+            from{transform: translateX(0);}
+            to{transform: translateX(-837px);} 
+        } 
+
+        .lightning{
+            width: 100%;
+            height: 83vh;
+            display: flex;
+            justify-content: space-evenly;
+            z-index: 1; 
+        }
+
+        .imgzipper{
+            width: 110vw;
+            height: 80vh;
+            margin-top: -1vw;
+            margin-bottom: -50vw;
+        }
+
+        .mascot1{
+            width: 55vw;
+            height: 40vh;
+            display: flex;
+            margin-top: -23.5vw;
+            margin-left: 1vw;
+            z-index: 2;
+            animation: animascot1 1.5s infinite linear;
+        }
+
+        @keyframes animascot1{
+            0%{transform: translateY(-120%)}
+            100%{transform: translateY(50%)}
+        } 
+
+        .mascot2{
+            width: 55vw;
+            height: 40vh;
+            display: flex;
+            margin-top: -23.5vw;
+            margin-left: 74vw;
+            z-index: 2;
+            animation: animascot2 1.5s infinite linear;
+        }
+
+        @keyframes animascot2{
+            0%{transform: translateY(-110%)}
+            100%{transform: translateY(50%)}
+        }  
+
+
+
+        .block3{
+            width: 100vw;
+            background-color: black;
+            overflow: hidden;
+        }
+        
+        .shadow3{
+            font-size: 64px;
+            font-family: 'Halvar Breitschrift', sans-serif ;
+            color: #A3B7BC;
+            white-space: nowrap;
+            animation: lin3 1.5s linear infinite;
+            padding-bottom: 8px;
+            }   
+
+            @keyframes lin3{
+                from{transform: translateX(0);}
+                to{transform: translateX(-759px);} 
+                /* to{transform: translateX(-768px);}  */
+            } 
+
+        .faces2{
+                background: url(../images/emotion2.svg);   
+                background-repeat: no-repeat;
+                background-size: 100%;
+            }
+            
+            .emotion3line{
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .emotion7{
+                width: 33.3%;
+            }
+            
+            .emotion7 img{
+                width: 100%;
+                height: 100%;
+            }
+
+            .emotion8{
+                width: 33.3%;
+            }
+            
+            .emotion8 img{
+                width: 100%;
+                height: 100%;
+            }
+
+            .emotion9{
+                width: 33.3%;
+            }
+            
+            .emotion9 img{
+                width: 100%;
+                height: 100%;
+            }
+            
+            footer {
+                text-align: center;
+            }
+
+            .emotion7{
+                animation: rotation2 3s infinite linear;
+            }
+            
+                @keyframes rotation2{
+                0% {transform: rotate(360deg);}
+                100% {transform: rotate(0deg);}
+            }
+
+            .emotion8{
+                animation: rotation2 3s infinite linear;
+            }
+            
+                @keyframes rotation2{
+                0% {transform: rotate(360deg);}
+                100% {transform: rotate(0deg);}
+            }
+
+            .emotion9{
+                animation: rotation2 3s infinite linear;
+            }
+            
+                @keyframes rotation2{
+                0% {transform: rotate(360deg);}
+                100% {transform: rotate(0deg);}
+            }
+
+            .block4{
+                width: 100%;
+                height: 15vh;
+                background-color: black;
+                overflow: hidden;
+            }
+            
+            .name{
+                font-size: 24px;
+                font-family: 'Halvar Breitschrift', sans-serif ;
+                font-weight: 400;
+                color: #E8E7E5;
+                white-space: nowrap;
+                text-align: right;
+                /* align-items: center; */
+                margin-top: 2vw;
+                margin-left: -5vw;
+                margin-right: 1vw;
+            }
+
+            .logo{
+                width: 15vw;
+                height: 15vh;
+                margin-top: -5vw;
+            }
+
+}
+
+/* телефон */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+.faces{
+    background: url(../images/emotion1.svg);   
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.emotion1line, .emotion2line{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.emotion1{
+    width: 33.3%;
+}
+
+.emotion1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.emotion2{
+    width: 33.3%;
+}
+
+.emotion2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.emotion3{
+    width: 33.3%;
+}
+
+.emotion3 img{
+    width: 100%;
+    height: 100%;
+}
+
+.emotion4{
+    width: 33.3%;
+}
+
+.emotion4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.emotion5{
+    width: 33.3%;
+}
+
+.emotion5 img{
+    width: 100%;
+    height: 100%;
+}
+
+.emotion6{
+    width: 33.3%;
+}
+
+.emotion6 img{
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+}
+
+.emotion1{
+    animation: rotation 3s infinite linear;
+}
+
+    @keyframes rotation{
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.emotion2{
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation{
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.emotion3{
+    animation: rotation 3s infinite linear;
+}
+
+@keyframes rotation{
+    0% {transform: rotate(360deg);}
+    100% {transform: rotate(0deg);}
+}
+
+.emotion4{
+    animation: rotation3 3s infinite linear;
+}
+
+@keyframes rotation3{
+    100% {transform: rotate(-360deg);}
+    0% {transform: rotate(-360deg);}
+}
+
+.emotion5{
+    animation: rotation3 3s infinite linear;
+}
+
+@keyframes rotation3{
+    100% {transform: rotate(0deg);}
+    0% {transform: rotate(-360deg);}
+}
+
+.emotion6{
+    animation: rotation3 3s infinite linear;
+}
+
+@keyframes rotation3{
+    100% {transform: rotate(0deg);}
+    0% {transform: rotate(-360deg);}
+}
+
+.block1{
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+.shadow{
+    font-size: 64px;
+    font-family: 'Halvar Breitschrift', sans-serif;
+    color: #A3B7BC;
+    white-space: nowrap;
+    animation: lin 1.5s linear infinite;
+    padding-bottom: 8px;
+    }
+
+    @keyframes lin{
+        from{transform: translateX(-387px);}
+        to{transform: translateX(0);}
+    }
+
+    .block2{
+        width: 100vw;
+        background-color: black;
+        overflow: hidden;
+    }
+    
+    .shadow2{
+        font-size: 64px;
+        font-family: 'Halvar Breitschrift', sans-serif ;
+        color: #A3B7BC;
+        white-space: nowrap;
+        animation: lin2 1.5s linear infinite;
+        padding-bottom: 8px;
+        }
+        @keyframes lin2{
+            from{transform: translateX(0);}
+            to{transform: translateX(-837px);} 
+        } 
+
+         .lightning{
+            width: 100%;
+            height: 83vh;
+            display: flex;
+            justify-content: space-evenly;
+            z-index: 1; 
+        }
+
+        .imgzipper{
+            width: 110vw;
+            height: 80vh;
+            margin-top: -1vw;
+            margin-bottom: -50vw;
+        }
+
+        .mascot1{
+            width: 55vw;
+            height: 40vh;
+            display: flex;
+            margin-top: -23.5vw;
+            margin-left: 1vw;
+            z-index: 2;
+            animation: animascot1 1.5s infinite linear;
+        }
+
+        @keyframes animascot1{
+            0%{transform: translateY(-120%)}
+            100%{transform: translateY(50%)}
+        } 
+
+        .mascot2{
+            width: 55vw;
+            height: 40vh;
+            display: flex;
+            margin-top: -23.5vw;
+            margin-left: 74vw;
+            z-index: 2;
+            animation: animascot2 1.5s infinite linear;
+        }
+
+        @keyframes animascot2{
+            0%{transform: translateY(-110%)}
+            100%{transform: translateY(50%)}
+        }  
+
+
+
+        .block3{
+            width: 100vw;
+            background-color: black;
+            overflow: hidden;
+        }
+        
+        .shadow3{
+            font-size: 64px;
+            font-family: 'Halvar Breitschrift', sans-serif ;
+            color: #A3B7BC;
+            white-space: nowrap;
+            animation: lin3 1.5s linear infinite;
+            padding-bottom: 8px;
+            }   
+
+            @keyframes lin3{
+                from{transform: translateX(0);}
+                to{transform: translateX(-759px);} 
+                /* /* /* to{transform: translateX(-768px);}   */
+            }  
+
+            .faces2{
+                    background: url(../images/emotion2.svg);   
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                }
+                
+                .emotion3line{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                }
+                .emotion7{
+                    width: 33.3%;
+                }
+                
+                .emotion7 img{
+                    width: 100%;
+                    height: 100%;
+                }
+    
+                .emotion8{
+                    width: 33.3%;
+                }
+                
+                .emotion8 img{
+                    width: 100%;
+                    height: 100%;
+                }
+    
+                .emotion9{
+                    width: 33.3%;
+                }
+                
+                .emotion9 img{
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                footer {
+                    text-align: center;
+                }
+    
+                .emotion7{
+                    animation: rotation2 3s infinite linear;
+                }
+                
+                    @keyframes rotation2{
+                    0% {transform: rotate(360deg);}
+                    100% {transform: rotate(0deg);}
+                }
+    
+                .emotion8{
+                    animation: rotation2 3s infinite linear;
+                }
+                
+                    @keyframes rotation2{
+                    0% {transform: rotate(360deg);}
+                    100% {transform: rotate(0deg);}
+                }
+    
+                .emotion9{
+                    animation: rotation2 3s infinite linear;
+                }
+                
+                    @keyframes rotation2{
+                    0% {transform: rotate(360deg);}
+                    100% {transform: rotate(0deg);}
+                }
+    
+                .block4{
+                    width: 100%;
+                    height: 15vh;
+                    background-color: black;
+                    overflow: hidden;
+                }
+                
+                .name{
+                    font-size: 24px;
+                    font-family: 'Halvar Breitschrift', sans-serif ;
+                    font-weight: 400;
+                    color: #E8E7E5;
+                    white-space: nowrap;
+                    text-align: right;
+                    align-items: center; 
+                    margin-top: 2vw;
+                    margin-left: -5vw;
+                    margin-right: 1vw;
+                }
+    
+                .logo{
+                    width: 15vw;
+                    height: 15vh;
+                    margin-top: -5vw;
+                }
+    
+}
